@@ -1,11 +1,84 @@
-# Open_Project_Winter_2025
-This repository outlines the Machine Learning for Quantum State Tomography programme, including the problem statement, assignments, timeline, guidelines, and recommended study paths.
+# Quantum Measurement Dataset Foundations
+Week 1 – Quantum State Tomography
 
-Refer to the [Project Outline](https://jajapuramshivasai.github.io/Open_Project_Winter_2025/) for the detailed schedule, prerequisites, and resource links.
+## Overview
+This repository contains my Week 1 submission for the Quantum Measurement Dataset
+Foundations assignment.
 
-## Submission Guidelines
-- Fork this repository to your GitHub account before beginning any tasks, and keep it synchronized with upstream updates.
-- Complete every task described in the provided Python notebooks, committing work frequently with clear messages.
-- Build a unified follow on project in your own repository that integrates the techniques and lessons from all assignments, documenting design decisions and outcomes.
-- Submit both the assignment artifacts in your fork and the consolidated project repository; certification evaluations will consider completeness, rigor, and documentation quality.
+The project implements a complete single-qubit Quantum State Tomography (QST)
+pipeline using simulated Pauli measurements. The workflow starts from measurement
+theory and ends with validated density matrix reconstruction.
 
+The repository is organized according to the required submission format.
+
+---
+
+## Repository Structure
+.
+├── src/
+│   └── tomography.py
+│
+├── notebooks/
+│   └── week1_quantum_topography.ipynb
+│
+├── docs/
+│   ├── README.md
+│   └── methodology.md
+│
+├── README.md
+├── LICENSE
+
+---
+
+## Features Implemented
+- Pauli measurement operators (X, Y, Z)
+- Born-rule probability computation
+- Shot-based measurement sampling
+- Density matrix reconstruction
+- Fidelity and trace distance validation
+- 3D density matrix visualization (magnitude + phase)
+
+---
+
+## Quantum States Reconstructed
+- |0⟩ , |1⟩
+- |+⟩ , |−⟩
+- (|0⟩ + i|1⟩) / √2
+
+---
+
+## Tools Used
+- PennyLane
+- NumPy
+- SciPy
+- Plotly
+- Jupyter Notebook
+
+---
+
+## How to Run
+1. Install dependencies:
+   pip install -r requirements.txt
+
+2. Open the notebook:
+   jupyter notebook notebooks/week1_quantum_topography.ipynb
+
+3. Run all cells top to bottom.
+
+---
+
+## Notes
+- Core tomography logic is implemented in src/tomography.py
+- The notebook demonstrates the full workflow and validation
+- Detailed theory and methodology are documented in docs/
+
+---
+
+## Author
+Arkaprava Biswas
+
+
+---
+
+## License
+This project is licensed under the included LICENSE file.
