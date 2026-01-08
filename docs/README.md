@@ -27,6 +27,8 @@ https://colab.research.google.com/github/Arka-009/Open_Project_Winter_2025/blob/
 │
 ├── README.md
 ├── LICENSE
+|---single_qubit_results.zip
+|---requirements.txt
 
 ---
 
