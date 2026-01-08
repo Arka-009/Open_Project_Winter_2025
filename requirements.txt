@@ -1,0 +1,7 @@
+pennylane
+numpy
+scipy
+pandas
+plotly
+tqdm
+nbformat
