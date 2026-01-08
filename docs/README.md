@@ -10,7 +10,7 @@ pipeline using simulated Pauli measurements. The workflow starts from measuremen
 theory and ends with validated density matrix reconstruction.
 
 The repository is organized according to the required submission format.
-
+https://colab.research.google.com/github/Arka-009/Open_Project_Winter_2025/blob/main/week1_quantum_topography.ipynb
 ---
 
 ## Repository Structure
